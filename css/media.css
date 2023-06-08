@@ -1,0 +1,78 @@
+@media screen and (min-width: 1200px) {
+    .feed-card{
+        width: 80%;
+    }
+    .feed-item{
+        padding: 15px;
+    }
+}
+@media screen and (max-width:1200px){
+  .desc{
+    width: 100%;
+  }
+  .card{
+    width: 49%;
+  }
+  .feed-card{
+    width: 95%;
+}
+.blog-card{
+    width: 49%;
+}
+
+}
+
+@media screen and (max-width:999px){
+    .left, .right{
+        width: 100%;
+    }
+    .right h2{
+        margin-top: 8%;
+    }
+    .left-image{
+        border: none;
+    }
+    .left-overlay{
+        transform: none;
+    }
+    .left-image img, .left-image:hover .left-overlay{
+        transform: none;
+    }
+    .card{
+        width: 100%;
+    }
+    .port-card{
+        width:49% ;
+    }
+    .feed-card{
+        width: 95%;
+    }
+    .first-row .sec-input{
+        margin-left: 0;
+    }
+    .links{
+        display: none;
+    }
+    .bars{
+        display:inline-block;
+    }
+}
+@media screen and (max-width:786px){
+    .port-card{
+        width: 100%;
+    }
+    .rank-card{
+        width: 49%;
+    }
+    .blog-card{
+        width: 100%;
+    }
+    .control{
+        width: 100%;
+    }
+    .first-row .sec-input{
+        margin-left: 0;
+    }
+}
+
+
